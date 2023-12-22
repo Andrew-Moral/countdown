@@ -1,0 +1,42 @@
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  color: #2a5c94;
+  font-size: 50px;
+  margin-top: 18rem;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+span {
+  display: block;
+}
+
+.field {
+  text-align: center;
+}
+
+.field:not(:last-child) {
+  margin-right: 25px;
+}
+
+.value {
+  font-size: 90px;
+  background-color: #acdceb;
+  color: #2a5c94;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: 20px;
+  color: #2a5c94;
+}
