@@ -2,18 +2,18 @@ h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   color: #2a5c94;
-  font-size: 50px;
-  margin-top: 18rem;
+  font-size: 25px;
+  margin-top: 10rem;
 }
 
 .container {
+  width: 290px;
   margin-left: auto;
   margin-right: auto;
 }
 .timer {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 span {
@@ -25,11 +25,11 @@ span {
 }
 
 .field:not(:last-child) {
-  margin-right: 25px;
+  margin-right: 10px;
 }
 
 .value {
-  font-size: 90px;
+  font-size: 30px;
   background-color: #acdceb;
   color: #2a5c94;
   border-radius: 10px;
